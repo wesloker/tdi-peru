@@ -1,0 +1,105 @@
+/* GLOBAL */
+.text-strong {
+  font-weight: bold;
+}
+.bg-red-price {
+  background: #EE4039;
+}
+.container, .container-fluid {
+  overflow: hidden;
+}
+/* Nav */
+.main-nav > .navbar-brand > img {
+  width: 100px;
+}
+/* Banner */
+.banner-container {
+  background-image: url('../img/desarrolloSoftware.jpg');
+  background-position-x: center;
+  background-size: cover;
+  height: 270px;
+}
+@media print, screen and (max-width: 767px) {
+  .banner-container {
+    height: 200px;
+  }
+}
+@media print, screen and (max-width: 576px) {
+  .banner-container {
+    height: 100px;
+  }
+}
+/* Stuff */
+@media print, screen and (max-width: 767px) {
+  .container-info > p {
+    font-size: .9em;
+  }
+}
+@media print, screen and (max-width: 576px) {
+  .container-info > p {
+    font-size: .7em;
+  }
+}
+/* Brochure */
+.brochure1{
+  background: #FF9B00;
+  /* background: #FAAD1A; */
+}
+.brochure2 {
+  /* background: #88919A; */
+  background: #2c2727;
+  /* background: #0062B2; */
+  /* background: #0080FF; */
+}
+.brochure1, .brochure2 {
+  color: #fff;
+}
+.brochure1 .img-container img, .brochure2 .img-container img {
+  width: 100%;
+}
+@media print, screen and (max-width: 767px) {
+  .brochure1 .info-container, .brochure2 .info-container {
+    margin-top: 1em;
+  }
+}
+/* Offers */
+.bg-offers {
+  background-image: url(../img/bg-offers.jpeg); 
+  background-size: cover;
+}
+.offer-main-container {
+  margin-bottom: 3em;
+}
+.offer-main-container .offer-container .offer-item {
+  /* overflow: hidden; */
+  min-width: 285px;
+}
+.offer-main-container .offer-container .offer-item > div {
+  min-width: 280px;
+  max-width: 280px;
+  overflow: hidden;
+  transition: all 0.3s !important;
+}
+.offer-main-container .offer-container .offer-item .price {
+  font-size: 2.5em;
+  margin-bottom: .5em;
+}
+.offer-main-container .offer-container .offer-item > div:hover{
+  transform: translateY(-15px);
+  transition: all 0.3s;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+@media print, screen and (max-width: 991px) {
+  .offer-main-container .offer-container .offer-item:last-child {
+    margin-top: 3em;
+  }
+}
+@media print, screen and (max-width: 767px) {
+  .offer-main-container .offer-container .offer-item {
+    margin-top: 3em !important;
+  }
+}
+/* Footer */
+.footer {
+  background: #262323;
+}
