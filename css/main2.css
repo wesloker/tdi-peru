@@ -5,9 +5,6 @@
 .bg-red-price {
   background: #EE4039;
 }
-.container, .container-fluid {
-  overflow: hidden;
-}
 /* Nav */
 .main-nav > .navbar-brand > img {
   width: 100px;
