@@ -97,6 +97,10 @@
   }
 }
 /* Footer */
-.footer {
+footer {
   background: #262323;
+}
+.text-fotter{
+  color: #707070;
+  font-size: 14px;
 }

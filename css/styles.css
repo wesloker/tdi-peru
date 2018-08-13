@@ -68,7 +68,6 @@ body{
 /* FORMULARIO*/
 .br-formulario{
     background: #FAAF16;
-    height:100vh;
 }
 .bordeer{
     border-radius: 29px;
@@ -116,5 +115,31 @@ footer{
     color: #707070;
     font-size: 14px;
 }
+.parallax{
+    background-image: url("../img/drone1.jpg");
+    height: 230px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.parallax2{
+    background-image: url("../img/drone2.jpg");
+    height: 230px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.marg{
+   margin-top: 5.2rem;
+}
+.redsocial{
+    margin-left:0.4rem;
+    margin-bottom: 0.4rem;
+    font-size: 32px;
+    color: rgb(223, 223, 223);
+}
+
 
 
