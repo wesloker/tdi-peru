@@ -32,11 +32,11 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="z-index: 000;">
                   <a class="dropdown-item" href="/tdi-peru/desarrollo-soft.html">Software</a>
-                  <a class="dropdown-item" href="/tdi-peru/cloud.html">Cloud</a>
-                  <a class="dropdown-item" href="#">Servidores</a>
-                  <a class="dropdown-item" href="#">Redes</a>
+                  <a class="dropdown-item" href="/tdi-peru/cloud.html">Cloud Computing</a>
+                  <a class="dropdown-item" href="/tdi-peru/cloud.html">Servidores</a>
+                  <a class="dropdown-item" href="/tdi-peru/Redes.html">Redes</a>
                   <a class="dropdown-item" href="#">Consultor&iacute;a</a>
-                  <a class="dropdown-item" href="#">Curso de Drones</a>
+                  <a class="dropdown-item" href="/tdi-peru/drone.html">Programaciòn de Drones</a>
                 </div>
               </li>
               <li class="nav-item">
@@ -58,6 +58,9 @@
       <br>
       <p class="text-center text-uppercase text-strong">Nos adaptamos a tus necesidades, desarrollando algo &uacute;nico para tu Empresa o Startup</p>
       <p class="text-center text-uppercase text-strong">Potenciamos tu idea de negocio</p>
+      <p>Diseñamos y desarrollamos páginas web para pymes, empresas, corporativas que buscan tener presencia en Internet.
+        Planificamos, diseñamos y desarrollamos la web que se ajuste a las necesidades de su empresa.
+        </p>
     </div>
     <!-- Brochure -->
     <div class="brochure1">
@@ -187,53 +190,51 @@
         </div>
         </div>
     </div>
-    <!-- Form -->
-    <div class="container-fluid" style="background: #FAAD1A;">
-      <div class="container" style="padding: 10em 0;max-width: 600px;">
-        <h3 class="text-center text-uppercase text-strong">¿Qu&eacute tal si... nos juntamos?</h3>
-        <p class="text-center my-4">No dude en contactarnos por cualquier consulta que se le presente. Nuestro equipo de expertos le respornderá a la brevedad</p>
-        <form class="container row">
-          <div class="col-12 col-md-6">
-            <div class="form-group row mt-4">
-              <div class="col-12">
-                <input class="form-control text-secondary" style="border-radius:20px;" type="text" placeholder="Nombres">
+
+<!-- FORMULARIO DE CONTACTO -->
+<section class="formulario-contactanos">
+  <div class="br-formulario centrarContent">
+  <div class="container my-5">
+       <div class="row justify-content-center ">
+           <div class="col-10 text-center ">
+               <h3 class="font-weight-bold">¡SIGAMOS EN CONTACTO!</h3>
+               <p>No dude en contactarnos por cualquier consulta que se le presente. Nuestro equipo le responderá a la brevedad.</p>
+           </div>
+       </div>
+       <form action="#">
+           <div class="form-row justify-content-center">
+               <div class="form-group col-md-4  ">
+                    <input type="text" class="form-control bordeer" placeholder="Nombres">
+               </div>
+               <div class="form-group col-md-4 ">
+                   <input type="email" class="form-control bordeer" placeholder="Email">
               </div>
-            </div>
-            <div class="form-group row mt-4">
-              <div class="col-12">
-                <input class="form-control text-secondary" style="border-radius:20px;" type="text" placeholder="Empresa">
+           </div>
+           <div class="form-row justify-content-center">
+               <div class="form-group col-md-4 " >
+                 <input type="text" class="form-control bordeer" id="validationServer01"  placeholder="Empresa">
+               </div>
+               <div class="form-group col-md-4">
+                   <input type="email" class="form-control bordeer" placeholder="Telefono">
               </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="form-group row mt-4">
-              <div class="col-12">
-                <input class="form-control text-secondary" style="border-radius:20px;" type="text" placeholder="Email">
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="form-group row mt-4">
-                <select class="form-control text-secondary" style="border-radius:20px;">
-                  <option>Empresa</option>
-                  <option>Empresa</option>
-                  <option>Empresa</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          <div class="col-12">
-            <div class="form-group row mt-4 px-3">
-              <textarea class="form-control" style="border-radius:20px;min-height: 100px;max-height: 300px" placeholder="Mi necesidad es..."></textarea>
-            </div>
-          </div>
-          <div class="col-12 d-flex justify-content-center mt-3">
-            <a href="#" class="btn btn-dark text-uppercase text-strong px-5" style="border-radius: 20px;">Enviar</a>
-          </div>
-        </form>
-      </div>
-    </div>
-    <!-- Footer -->
-    <footer >
+           </div>
+           <div class="form-row justify-content-center">
+               <div class="col-group col-md-8 ">
+                   <textarea name="mensaje" class="form-control bordeer" id="mensaje"  rows="3" placeholder="Mi necesidad es..."></textarea>
+               </div>
+           </div>
+
+           <div class="form-row justify-content-center">
+               <div class="col-group col-md-2  col-sm-4 ">
+                   <button type="submit" class="form-control btnEnviar ">ENVIAR </button>
+               </div>
+           </div>
+       </form>
+   </div>
+  </div>      
+</section>
+
+<footer >
       <div class="container" >
           <div class="row align-items-center">
               <div class="col-md-4 col-sm-4"style="margin-top: 2rem">
@@ -244,13 +245,15 @@
                   <p class="text-light text-center">TDI</p>
               </div>
               <div class="col-md-4 col-sm-4"style="margin-top: 2rem" >
-                  <p class="text-light text-center">Síganos</p>
-                  <ul class="text-fotter text-left" style="list-style-type: none">
-                      <li>Celular: 999999999</li>
-                      <li>WhatsApp: +519999999</li>
-                      <li>Email: contacto@tdi.com</li>
-                      <li></li>
-                  </ul>
+                  <p class="text-light">Síganos </p>
+                  <a href="www.facebook.com/" > <i class="fab fa-facebook-square redsocial" ></i></a>
+                  <a href="www.youtube.com/"><i class="fab fa-youtube-square  redsocial"></i></a>
+                  <div class="text-fotter " style="list-style-type: none">
+                  <li>Celular:  933896583</li>
+                  <li>Email: contacto@tdiperu.com</li>
+                  <li>Direccion:  Av. Javier Prado 690 - San Isidro, Lima</li>
+                  <li></li>
+                  </div>
               </div>
           </div>
           <div class="row">
@@ -260,6 +263,7 @@
       </div>         
       </div>      
   </footer> 
+
   </div>
   <script src="./js/popper.min.js"></script>
   <script src="./js/jquery-3.3.1.slim.min.js"></script>

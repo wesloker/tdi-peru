@@ -96,6 +96,54 @@
     margin-top: 3em !important;
   }
 }
+/* FORMULARIO*/
+.centrarContent{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: #282D31;
+}
+.br-formulario{
+  background: #FAAF16;
+}
+.bordeer{
+  border-radius: 29px;
+  border:2px solid rgb(111, 118, 123);
+  outline: none;
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition:0.5s;
+  color: #181616;
+  padding: 8px 8px;
+  padding-left: 18px;
+}
+textarea{
+  padding-top: 18px;
+}
+.bordeer:focus{
+  border:2px solid #282D31;
+  
+  box-shadow: 0 0 0 0.1rem rgba(24, 22, 22, 0.47);
+}
+.btnEnviar{
+  background-color: #181616;
+  color: #ececec;
+  padding: 8px 22px;
+  border-radius: 29px;
+  transition:0.5s;
+  border: #181616;
+  margin-top:15px;
+  font-weight: bold;
+}
+.btnEnviar:hover{
+  background-color: #282D31; 
+}
+.btnEnviar:focus{
+  background-color: #282D31;
+  box-shadow: none;
+  color: #fff;
+}
+/*----*/
 /* Footer */
 footer {
   background: #262323;

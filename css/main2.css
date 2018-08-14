@@ -72,7 +72,7 @@
   max-width: 280px;
   overflow: hidden;
   transition: all 0.3s !important;
-}
+} 
 .offer-main-container .offer-container .offer-item .price {
   font-size: 2.5em;
   margin-bottom: .5em;
