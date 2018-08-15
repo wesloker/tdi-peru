@@ -5,8 +5,11 @@
 .bg-red-price {
   background: #EE4039;
 }
+.overflow-hidden {
+  overflow: hidden;
+}
 /* Nav */
-.main-nav > .navbar-brand > img {
+.main-nav>.navbar-brand>img {
   width: 100px;
 }
 /* Banner */
@@ -16,29 +19,33 @@
   background-size: cover;
   height: 270px;
 }
-@media print, screen and (max-width: 767px) {
+@media print,
+screen and (max-width: 767px) {
   .banner-container {
     height: 200px;
   }
 }
-@media print, screen and (max-width: 576px) {
+@media print,
+screen and (max-width: 576px) {
   .banner-container {
     height: 100px;
   }
 }
 /* Stuff */
-@media print, screen and (max-width: 767px) {
-  .container-info > p {
+@media print,
+screen and (max-width: 767px) {
+  .container-info>p {
     font-size: .9em;
   }
 }
-@media print, screen and (max-width: 576px) {
-  .container-info > p {
+@media print,
+screen and (max-width: 576px) {
+  .container-info>p {
     font-size: .7em;
   }
 }
 /* Brochure */
-.brochure1{
+.brochure1 {
   background: #FF9B00;
   /* background: #FAAD1A; */
 }
@@ -54,14 +61,15 @@
 .brochure1 .img-container img, .brochure2 .img-container img {
   width: 100%;
 }
-@media print, screen and (max-width: 767px) {
+@media print,
+screen and (max-width: 767px) {
   .brochure1 .info-container, .brochure2 .info-container {
     margin-top: 1em;
   }
 }
 /* Offers */
 .bg-offers {
-  background-image: url(../img/bg-offers.jpeg); 
+  background-image: url(../img/bg-offers.jpeg);
   background-size: cover;
 }
 .offer-main-container {
@@ -81,64 +89,65 @@
   font-size: 2.5em;
   margin-bottom: .5em;
 }
-.offer-main-container .offer-container .offer-item > div:hover{
+.offer-main-container .offer-container .offer-item > div:hover {
   transform: translateY(-15px);
   transition: all 0.3s;
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
-@media print, screen and (max-width: 991px) {
+@media print,
+screen and (max-width: 991px) {
   .offer-main-container .offer-container .offer-item:last-child {
     margin-top: 3em;
   }
 }
-@media print, screen and (max-width: 767px) {
+@media print,
+screen and (max-width: 767px) {
   .offer-main-container .offer-container .offer-item {
     margin-top: 3em !important;
   }
 }
 /* FORMULARIO*/
-.centrarContent{
+.centrarContent {
   align-items: center;
   display: flex;
   justify-content: center;
   background: #282D31;
 }
-.br-formulario{
+.br-formulario {
   background: #FAAF16;
 }
-.bordeer{
+.bordeer {
   border-radius: 29px;
-  border:2px solid rgb(111, 118, 123);
+  border: 2px solid rgb(111, 118, 123);
   outline: none;
   box-sizing: border-box;
   -webkit-transition: 0.5s;
-  transition:0.5s;
+  transition: 0.5s;
   color: #181616;
   padding: 8px 8px;
   padding-left: 18px;
 }
-textarea{
+textarea {
   padding-top: 18px;
 }
-.bordeer:focus{
-  border:2px solid #282D31;
-  
+.bordeer:focus {
+  border: 2px solid #282D31;
   box-shadow: 0 0 0 0.1rem rgba(24, 22, 22, 0.47);
 }
-.btnEnviar{
+.btnEnviar {
   background-color: #181616;
   color: #ececec;
   padding: 8px 22px;
   border-radius: 29px;
-  transition:0.5s;
+  transition: 0.5s;
   border: #181616;
-  margin-top:15px;
+  margin-top: 15px;
   font-weight: bold;
 }
-.btnEnviar:hover{
-  background-color: #282D31; 
+.btnEnviar:hover {
+  background-color: #282D31;
 }
-.btnEnviar:focus{
+.btnEnviar:focus {
   background-color: #282D31;
   box-shadow: none;
   color: #fff;
@@ -148,7 +157,55 @@ textarea{
 footer {
   background: #262323;
 }
-.text-fotter{
+.text-fotter {
   color: #707070;
   font-size: 14px;
+}
+/* SEGURIDAD PAGINA */
+
+/* Banner */
+.seguridad-container {
+  height: 40vh;
+  background-image: url('../img/seguridadimg.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* Brochure Seguridad 1 */
+.brochure-1 {
+  background: #E91717;
+}
+.brochure-1 h3, .brochure-1 p {
+  color: #fff;
+}
+.brochure-1 img {
+  width: 100%;
+  padding: 1em;
+}
+.brochure-2 {
+  background: #9D0000;
+}
+.brochure-2 h3, .brochure-2 p {
+  color: #fff;
+}
+.brochure-2 img {
+  width: 100%;
+  padding: 1em;
+}
+.seguridad-section-container {
+  background-image: url('../img/seguridadimg2.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  opacity: .8;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+.seguridad-section-container h3, .seguridad-section-container p {
+  color: #fff;
 }
