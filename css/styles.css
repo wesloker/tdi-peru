@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 body{
     font-family: 'Roboto', sans-serif; 
+    
+
 }
+
 /*AJUSTER DEL CAROUSEL */
 .carousel-indicators li{
     border-radius: 50%;
