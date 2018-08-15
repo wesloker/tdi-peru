@@ -1,143 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/ico" href="img/ico.ico">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/animate/animate.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/animate.min.css">
     <title>TDI</title>
 </head>
+
 <body>
-        <style>
-            .hp{border: 0.8px solid #3e6174}
-            .oracle{border: 0.8px solid #010301}
-            .redhat{border: 0.8px solid #010301}
-            .windows{border: 0.8px solid #1543ca}
-            .hoveref{
-                 transition-duration: 0.8s;
-            
-             }
-            .hoveref:hover{
-                 transform: scale(0.8);
-                 border: 0.8px solid #000000;
-             transition-duration: 0.5s;
-            }
-            .parallaxnosotros1{
-                background-image: url("img/nosotros2.jpg");
-                
-                height: 180px;
-            }
-            .parallaxnosotros2{
-                background-image: url("img/nosotros.jpeg ");
-                height: 200px;
-            }
+    <style>
+        .hp {
+            border: 0.8px solid #3e6174
+        }
 
-            .parallaxnosotros{
-                
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-            .centrarN{
-               margin-top: 8rem;
-               color: #fff;
-               
+        .oracle {
+            border: 0.8px solid #010301
+        }
 
-            }
-        </style>
+        .redhat {
+            border: 0.8px solid #010301
+        }
+
+        .windows {
+            border: 0.8px solid #1543ca
+        }
+
+        .hoveref {
+            transition-duration: 0.8s;
+
+        }
+
+        .hoveref:hover {
+            transform: scale(0.8);
+            border: 0.8px solid #000000;
+            transition-duration: 0.5s;
+        }
+
+        .parallaxnosotros1 {
+            background-image: url("img/nosotros2.jpg");
+
+            height: 180px;
+        }
+
+        .parallaxnosotros2 {
+            background-image: url("img/nosotros.jpeg ");
+            height: 200px;
+        }
+
+        .parallaxnosotros {
+
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .centrarN {
+            margin-top: 8rem;
+            color: #fff;
+        }
+    </style>
     <!--Header-->
     <header class="bg-light">
-    <div class="container ">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <a class="navbar-brand" href="/tdi-peru/">
-                <img src="img/logoTDI.svg"  width="115"  alt="logoTDI">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-              
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a class="nav-link" href="/tdi-peru/">Inicio</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Servicios
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/tdi-peru/desarrollo-soft.html">Software</a>
-                        <a class="dropdown-item" href="/tdi-peru/cloud.html">Cloud</a>
-                        <a class="dropdown-item" href="/tdi-peru/servidores.html">Servidores</a>
-                        <a class="dropdown-item" href="/tdi-peru/redes.html">Redes</a>
-                        <a class="dropdown-item" href="/tdi-peru/consultoria.html">Consultoria</a>
-                        <a class="dropdown-item" href="/tdi-peru/drone.html">Programaciòn de Drones</a>
-                    </li>
-                    <li class="nav-item"><a href="/tdi-peru/nosotros.html" class="nav-link">Nosotros</a></li>
-                    <li class="nav-item"><a href="/tdi-peru/contactanos.html" class="nav-link">Contactanos</a></li>
+        <div class="container ">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <a class="navbar-brand" href="/tdi-peru/">
+                    <img src="img/logoTDI.svg" width="115" alt="logoTDI">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/tdi-peru/">Inicio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Servicios
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="/tdi-peru/desarrollo-soft.html">Software</a>
+                                <a class="dropdown-item" href="/tdi-peru/cloud.html">Cloud</a>
+                                <a class="dropdown-item" href="/tdi-peru/servidores.html">Servidores</a>
+                                <a class="dropdown-item" href="/tdi-peru/redes.html">Redes</a>
+                                <a class="dropdown-item" href="/tdi-peru/consultoria.html">Consultoria</a>
+                                <a class="dropdown-item" href="/tdi-peru/drone.html">Programaciòn de Drones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/tdi-peru/nosotros.html" class="nav-link">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/tdi-peru/contactanos.html" class="nav-link">Contactanos</a>
+                        </li>
+
+                    </ul>
+                    </div>
+            </nav>
             </div>
-        </nav>
-    </div>
     </header>
     <!--Fin de Header-->
     <div class="parallaxnosotros parallaxnosotros1">
 
-   </div>
-   <div class="container">
-       <div class="row my-4">
-           <div class="col-12">
-               <h4 class="font-weight-bold">Sobre Nosotros</h4>
-                <p class="text-dark">Lo más importante en TDI, nuestra gente, altamente capacitada y certificada para atender las necesidades de nuestros clientes​. Lo último en tecnología para el desarrollo de software. Más de 10 años de experiencia en el desarrollo de software, aplicaciones móviles, infraestructura de data centers, ambientes tecnológicos, servidores y cloud. </p>
-  
-           </div>
-       </div>
-   </div>
-   <div class="parallaxnosotros parallaxnosotros2">
+    </div>
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-12">
+                <h4 class="font-weight-bold">Sobre Nosotros</h4>
+                <p class="text-dark">Lo más importante en TDI, nuestra gente, altamente capacitada y certificada para atender las necesidades
+                    de nuestros clientes​. Lo último en tecnología para el desarrollo de software. Más de 10 años de experiencia
+                    en el desarrollo de software, aplicaciones móviles, infraestructura de data centers, ambientes tecnológicos,
+                    servidores y cloud. </p>
 
-   </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallaxnosotros parallaxnosotros2">
+    </div>
 
-
-
-       <footer >
-        <div class="container" >
+    <footer>
+        <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-4 col-sm-4"style="margin-top: 2rem">
+                <div class="col-md-4 col-sm-4" style="margin-top: 2rem">
                     <p class="text-fotter"> TDI - Soluciones digitales para tu empresa. Servicio de Calidad.
                     </p>
                 </div>
-                <div class="col-md-4 col-sm-4"style="margin-top: 2rem" >
+                <div class="col-md-4 col-sm-4" style="margin-top: 2rem">
                     <p class="text-light text-center">TDI</p>
                 </div>
-                <div class="col-md-4 col-sm-4"style="margin-top: 2rem" >
+                <div class="col-md-4 col-sm-4" style="margin-top: 2rem">
                     <p class="text-light">Síganos </p>
-                    <a href="https://www.facebook.com/Tecnolog%C3%ADas-de-Informaci%C3%B3n-182737745193869/" > <i class="fab fa-facebook-square redsocial" ></i></a>
-                    <a href="www.youtube.com/"><i class="fab fa-youtube-square  redsocial"></i></a>
+                    <a href="https://www.facebook.com/Tecnolog%C3%ADas-de-Informaci%C3%B3n-182737745193869/">
+                        <i class="fab fa-facebook-square redsocial"></i>
+                    </a>
+                    <a href="www.youtube.com/">
+                        <i class="fab fa-youtube-square  redsocial"></i>
+                    </a>
                     <div class="text-fotter " style="list-style-type: none">
-                    <li c>Celular: 933896583</li>
-                    <li>Email: contacto@tdiperu.com</li>
-                    <li>Direccion:  Av. Javier Prado 690 - San Isidro, Lima</li>
-                    <li></li>
+                        <li c>Celular: 933896583</li>
+                        <li>Email: contacto@tdiperu.com</li>
+                        <li>Direccion: Av. Javier Prado 690 - San Isidro, Lima</li>
+                        <li></li>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-fotter">Copyright © 2018 Tecnologias de Información Todos los derechos reservados.</p> 
-                </div>                   
-        </div>         
-        </div>      
-    </footer> 
-    
-    <script src="js/jquery-slim.min.js"></script>
+                    <p class="text-fotter">Copyright © 2018 Tecnologias de Información Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./lib/jquery/jquery-3.3.1.slim.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
 
-    <script src="js/bootstrap.min.js"></script> 
-
 </body>
+
 </html>
