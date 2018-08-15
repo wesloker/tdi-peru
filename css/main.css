@@ -45,19 +45,9 @@ screen and (max-width: 576px) {
   }
 }
 /* Brochure */
-.brochure1 {
-  background: #FF9B00;
   /* background: #FAAD1A; */
-}
-.brochure2 {
-  /* background: #88919A; */
-  background: #2c2727;
   /* background: #0062B2; */
-  /* background: #0080FF; */
-}
-.brochure1, .brochure2 {
-  color: #fff;
-}
+/* } */
 .brochure1 .img-container img, .brochure2 .img-container img {
   width: 100%;
 }
