@@ -12,7 +12,7 @@
 /* Banner */
 .banner-container {
   background-image: url('../img/cloud.jpg');
-  background-position-x: center;
+  background-position: center;
   background-size: cover;
   height: 270px;
 }
@@ -59,6 +59,7 @@
 .bg-offers {
   background-image: url(../img/bg-offers2.jpg); 
   background-size: cover;
+  background-position: center;
 }
 .offer-main-container {
   margin-bottom: 3em;

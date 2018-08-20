@@ -65,11 +65,8 @@ function deletingWords(arrWords, counter) {
 }
 
 function wordsToPrint() {
-    let arrWords = [
-        "Nos adaptamos a tus necesidades, desarrollando algo único para tu Empresa o Startup",
-        "Potenciamos tu idea de negocio",
-        "Planificamos, diseñamos y desarrollamos la web que se ajuste a las necesidades de su empresa"
-    ];
+    let contentToTyping = document.getElementById('contentToTyping').textContent;
+    let arrWords = contentToTyping.split('|br|');
     let counter = 0;
     writing(arrWords, counter);
 }
